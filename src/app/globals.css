@@ -1,3 +1,7 @@
+@import 'normalize.css';
+
+@custom-media --lg-vw (min-width: 768px);
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
