@@ -2,7 +2,6 @@
   "name": "iron-man-landing-page",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,17 +12,18 @@
     "@next/font": "13.1.6",
     "@react-spring/web": "^9.6.1",
     "embla-carousel-react": "^7.0.9",
-    "eslint": "8.34.0",
-    "eslint-config-next": "13.1.6",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sharp": "^0.31.3",
     "wretch": "^2.5.0"
   },
   "devDependencies": {
     "@types/node": "18.14.0",
     "@types/react": "18.0.28",
     "browserslist": "^4.21.5",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
     "postcss": "^8.4.21",
     "postcss-normalize": "^10.0.1",
     "postcss-preset-env": "^8.0.1",
