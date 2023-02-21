@@ -1,0 +1,4 @@
+.image {
+  object-fit: cover;
+  box-shadow: var(--shadow-elevation-high);
+}

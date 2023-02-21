@@ -1,0 +1,21 @@
+.root {
+  overflow: hidden;
+  padding-inline-start: 1.5rem;
+  padding-block-end: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .root {
+    padding-inline-start: 5rem;
+  }
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 13.75rem;
+}
+
+.container > * {
+  margin-right: 2rem;
+}
