@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
-let nextConfig = {
-  experimental: {
-    appDir: true,
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: ['i.annihil.us'],
   },
 }
 
