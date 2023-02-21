@@ -105,6 +105,5 @@ export const getStaticProps: GetStaticProps = async () => {
       attribution: characterResponse?.attributionHTML,
       comics: comicResponse?.data.results,
     },
-    revalidate: 3600 * 10, // 10 hours
   }
 }
